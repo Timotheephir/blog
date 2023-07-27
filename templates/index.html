@@ -33,15 +33,7 @@
             TIMOTHEE'S BLOG
         </h1>
     </div>
-    {% for post in posts reversed %}
-    <div class="container">
-      <a href="#" style="text-decoration: none">
-        <h3>{{post.title}}</h3>
-        <h6>{{post.created_at}}</h6>
-        <p>{{post.body|truncatewords:20}}</p>
-      </a>
-    </div>
-    {%endfor%}
+   
 
 </body>
 
